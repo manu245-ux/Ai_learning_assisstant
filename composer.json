@@ -1,0 +1,20 @@
+{
+    "name": "student/ai-learning-assistant",
+    "description": "AI Learning Assistant - PHP + MySQL + Gemini API study tool",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-curl": "*",
+        "ext-fileinfo": "*",
+        "ext-zlib": "*",
+        "ext-mbstring": "*",
+        "ext-session": "*"
+    },
+    "config": {
+        "platform": {
+            "php": "8.2"
+        }
+    }
+}

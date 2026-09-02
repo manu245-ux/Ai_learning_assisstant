@@ -1,0 +1,19 @@
+# Secrets and local-only files
+.env
+.git
+.github
+.gitignore
+
+# Runtime/user data
+logs_php_errors.log
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+
+# Documentation isn't needed inside the production image
+README.md
+DEPLOYMENT.md
+CONTRIBUTING.md
+CHANGELOG.md
+SECURITY.md
+LICENSE

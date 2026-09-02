@@ -1,0 +1,29 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime logs
+logs_php_errors.log
+*.log
+
+# User uploads
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+
+# PHP / Composer
+/vendor/
+composer.lock
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
